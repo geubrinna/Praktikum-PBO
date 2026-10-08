@@ -19,7 +19,7 @@ public class Dataset {
     public static final double BATAS_MISSING = 5.0;
     private static int totalDataset = 0;
     
-    //1.Co structor tanpa parameter
+    //1.Constructor tanpa parameter
     public Dataset(){
         this.nama = " ";
         this.jumlahBaris = 0;
@@ -30,7 +30,7 @@ public class Dataset {
     
     //2.Constructor dengan 1 parameter
     public Dataset(String nama){
-        this.nama = "";
+        this.nama = nama;
         this.jumlahBaris = 0;
         this.jumlahKolom = 0;
         this.jumlahMissing = 0;
