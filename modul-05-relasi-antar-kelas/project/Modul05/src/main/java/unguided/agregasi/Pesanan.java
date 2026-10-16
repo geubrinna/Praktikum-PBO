@@ -25,7 +25,7 @@ public class Pesanan {
 
     public void tampilkanPesanan(){
         System.out.println("=== DAFTAR PESANAN CAFE ===");
-        System.out.println("Nomor Meja: " + this.nomorMeja);
+        System.out.println("Nomor Meja : " + this.nomorMeja);
         for (int i = 0; i < this.jumlahProduk; i++){
             Produk produk = this.daftarProduk[i];
             double totalHarga = produk.getRincian().getHargaTotal();
